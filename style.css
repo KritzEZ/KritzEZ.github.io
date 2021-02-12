@@ -26,8 +26,7 @@ body{
 /*::-webkit-scrollbar {
     width: 0px; 
     background: transparent; 
-}
-*/
+}*/
 
 h2.header {
 	padding: 20px 0 30px 50px;
@@ -129,16 +128,6 @@ div {
 
 }
 
-/*for project page text*/
-#project-content {
-    top: 0%;
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);
-}
-
 @media screen and (max-width: 61.625em) {
     .about {
         height: 60em;
@@ -222,14 +211,8 @@ div {
   	  transition: all 1000ms ease-in-out;
 }
 
-ul.timeline li .timeplie-placement-duration {
-	  position: relative;
-	  width: 100px;
-	  font-size: 17px;
-}
-
 .timeline-placement-duration {
-    font-size: 1em;
+    font-size: 17px;
     background-color: #0F2027;
     border-radius: 10%;
     display: inline-block;
@@ -281,5 +264,3 @@ ul.timeline li .timeplie-placement-duration {
 .projects p{
 	font-size: 1.5em
 }
-
-/*------------------------Contact-----------------------*/
